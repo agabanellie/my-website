@@ -1,6 +1,6 @@
 body{
     margin: 4px;
-    background-color: #dde1bc;
+    background-color: hsl(303, 79%, 72%);
 }
 h1{
     background-color: rgb(33, 248, 248);
@@ -12,7 +12,18 @@ h2{
 }
 ul{list-style: none;
     display: flex;
+    
 }
 li{background-color: gray;
 color: white;
+margin: 3px;
+padding: 10px;
+font-size: 2rem;
+font-variant: small-caps;
+display: inline-block;
+}
+a{
+    color: white;
+    padding: 15px;
+text-decoration: none;
 }

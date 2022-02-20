@@ -6,15 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="\css\myStyles.css">
 
-    <title>Contact page</title>
+    <title>Nelson's Official Website</title>
 </head>
 <body>
-  <h1>Our contacts</h1>
   <ul>
-    <li><a href="index.html">home</a> </li>
-    <li>about us</li>
-    <li><a href="contactUS.html">contact us</a> </li>
-    <li>Board</li>
-</ul>  
+    <li><a href="about.html">about</a> </li>
+    <li><a href="services.html">services</a></li>
+    <li><a href="portfolio.html">portfolio</a></li>
+    <li><a href="education.html">education</a></li>
+    <li><a href="contactUS.html">contact</a> </li>       
+  </ul>
+<div>
+  <h3>
+   Just fill in your details below and send me a message. I aim to reply to any inquiries with in 24 hours.
+ </h3>
+  <form>
+    <fieldset style="width:fit-content">
+        <legend>
+            <h2>Contact Form</h2>
+        </legend>
+    <label style="color: white;">First Name</label>  
+    <p><input type="text" size="30" name="firstName" id="firstName" placeholder="enter your First Name"></p>
+    <label style="color: white;">Last Name</label>
+    <p><input type="text" size="30" name="lastname" id="lastname" placeholder="enter your Last Name"></p>
+    <label style="color: white;">Email</label>
+    <p><input type="email" size="30" name="email" id="emailaddress" placeholder="your email@example.com"></p>
+    <label style="color: white;">Date</label>
+    <p><input type="date" size="30" name="date" id="submissiondate"></p>
+    <label style="color: white;">Message</label> 
+    <br>
+    <textarea name="message" id="messagebox" cols="60" rows="15" placeholder="Enter your Message here"></textarea>
+
+</fieldset>
+</form>
+<button type="reset">CLEAR</button>
+<button type="submit">SUBMIT</button>
+
+</div>
+
 </body>
 </html>

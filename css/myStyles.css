@@ -1,22 +1,29 @@
+
 body{
-    margin: 4px;
-    background-color: beige);
-    
-}
-/* Add a black background color to the top navigation */
-.topnav {
-    background-color: #333;
+  height: 1360px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  overflow: auto;
+  
+  }
+
+ /* Add a black background color to the top navigation */
+ .topnav {
+    background-color: black;
     overflow: hidden;
   }
   
   /* Style the links inside the navigation bar */
   .topnav a {
-    float: left;
+    float:left;
     color: #f2f2f2;
     text-align: justify;
     padding: 16px 20px;
     text-decoration: none;
     font-size: 20px;
+    text-indent: 20px;
   }
   
   /* Change the color of links on hover */
@@ -24,31 +31,93 @@ body{
     background-color: #ddd;
     color: black;
   }
-  
-h1{
+ 
+  /*change color of Headings*/
+ h1{
     color: black;
-    font-family: Tahoma;
-    font-size: 2.5rem;
-    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    text-align: left;
     
-}
-h2{
+  }
+  /*change color of Subheadings*/
+  h2{
     color: black; 
     text-align:left;
-    text-indent: 180px;
+    text-indent: 90px;
+  }
+
+ ul{
+     list-style-type: none;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ .footer {
+  position:fixed;
+  left: 0;
+  bottom: 0%;
+  width: 100%;
+  height: 20%;
+  background-color: navy;
+  color: white;
+  text-align: center;
+ }
+ .social-icon{
+  color: whitesmoke;
+  align-items:center;
+  display:inline-block;
+  margin: 0 10px;
+  text-decoration:none;
+  font-size:xx-large;
+  border-radius: 50%;
+  
+ }
+ .social-icon:hover{
+  color: silver;
+}
+.introduction{
+ background-color:white;
+ margin-top: 10px;
+ box-sizing: border-box;
+ font-family: Arial, Helvetica, sans-serif;
+ text-align: left;
+ margin: 0;
+ margin-bottom: 50px;
+ display:flex;
+ 
 }
 
-/* Style inputs with type="text", select elements and textareas */
-input[type=text],[type=date],textarea {
-    width: 35%; /* Full width */
-    padding: 10px; /* Some padding */ 
+.image{
+ max-width: 100%;
+ 
+}
+.text {
+ margin-left: 20px;
+ margin-right: 20px;
+ font-size: 1.5rem;
+ text-align: justify;
+ color: black;
+}
+.profile{
+  background-color: navy;
+  
+}
+.profile .text{
+  color: white;
+  font-size: 1.5rem;
+}
+  /* Style inputs with type="text", select elements and textareas */
+  input[type=text],[type=date],textarea {
+    width: 100%; /* full width */
+    padding: 8px; /* Some padding */
     border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
+    border-radius: 10px; /* Rounded borders */ 
     box-sizing:border-box; /* Make sure that padding and width stays in place */
     margin-top: 2px; /* Add a top margin */
     margin-bottom: 2px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-    
+    color: black;
+            
   }
   
   /* Style the submit button with a specific background color etc */
@@ -60,13 +129,17 @@ input[type=text],[type=date],textarea {
     border-radius: 4px;
     cursor: pointer;
   }
-  
-  /* When moving the mouse over the submit button, add a darker green color */
+ 
+  /* When moving the mouse over the submit button, add a purple color */
   input[type=submit]:hover {
     background-color: purple;
   }
+  /*increase font size of Contact Form field*/
+
   input[placeholder="Your First Name"],[placeholder="Your Last Name"],[placeholder="Your email@example.com"]{
       font-size:medium;
+      margin: 0px;
+      
   }
   textarea[placeholder="Enter your Message here"]{
       font-size: larger;
@@ -77,14 +150,15 @@ input[type=text],[type=date],textarea {
 
   label[for=fname],[for=lname],[for=email],[for=date], [for=subject]{
     font-size:larger;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
   /* Add a background color and some padding around the form */
   .container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-  }
- 
-  
-    
+    height: 65%;
+    width: 35%;
   }
